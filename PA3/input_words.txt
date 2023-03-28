@@ -1,0 +1,9 @@
+10
+Articles 5
+the a one some any
+Nouns 5
+boy girl dog town car
+Verbs 5
+drove jumped ran walked skipped
+Prepositions 5
+to from over under on
