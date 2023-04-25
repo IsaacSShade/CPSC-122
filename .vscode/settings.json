@@ -3,6 +3,15 @@
         "iosfwd": "cpp",
         "*.tcc": "cpp",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "cmath": "cpp",
+        "fstream": "cpp"
     }
 }
