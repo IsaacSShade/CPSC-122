@@ -12,6 +12,7 @@
         "type_traits": "cpp",
         "utility": "cpp",
         "cmath": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "new": "cpp"
     }
 }
