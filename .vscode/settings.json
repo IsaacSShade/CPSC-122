@@ -13,6 +13,7 @@
         "utility": "cpp",
         "cmath": "cpp",
         "fstream": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "sstream": "cpp"
     }
 }

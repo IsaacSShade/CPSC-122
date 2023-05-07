@@ -1,3 +1,11 @@
+/*
+ Name: Aiden Tabrah
+ Class: CPSC 122, Spring 2023
+ Date: May 6, 2023
+ Programming Assignment: PA9                                                          
+ Description: Header file for for all of PA9
+*/
+
 #ifndef PA9_H
 #define PA9_H
 
@@ -28,6 +36,8 @@ void runTask4();
 
 // task 5 prototypes
 void generateSubstrings(string, vector<string>&);
+void sequentialSubstrings(string, vector<string>&);
+void printSubstrings(vector<string>&);
 void runTask5();
 
 // BONUS ONLY struct definition and prototypes

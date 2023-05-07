@@ -1,3 +1,11 @@
+/*
+ Name: Aiden Tabrah
+ Class: CPSC 122, Spring 2023
+ Date: May 6, 2023
+ Programming Assignment: PA9                                                          
+ Description: Header file for all of the Linked Lists's class's functions
+*/
+
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 

@@ -1,4 +1,14 @@
+/*
+ Name: Aiden Tabrah
+ Class: CPSC 122, Spring 2023
+ Date: May 6, 2023
+ Programming Assignment: PA9                                                          
+ Description: Definitions for all of the Linked Lists's class's functions
+*/
+
 #include "LinkedList.h"
+
+// ----------- STARTER CODE BLOCK ----------- //
 
 LinkedList::LinkedList() {
 	head = NULL;
@@ -45,14 +55,32 @@ void LinkedList::appendNode(int newValue) {
 	}
 }
 
+// ------------------------------------------ //
 
-// TODO: finish this function
+//Input: The next node's memory address, and the current largest number found
+//Output: The largest number
 int LinkedList::getMaxValueHelper(Node *nodePtr, int largest) {	
-	return -1;  // TODO: fix this
+	if (nodePtr == NULL) {
+		return largest;
+	}
+	
+	if (nodePtr->value > largest) {
+		return getMaxValueHelper(nodePtr->next, nodePtr->value);
+	}
+	else {
+
+		return getMaxValueHelper(nodePtr->next, largest);
+	}
 }
 
 
-// TODO: finish this function
+//Input: N/A
+//Output: The largest value
 int LinkedList::getMaxValue() {
-	return -1; // TODO: fix this
+	if (head == NULL) {
+		return -1;
+	}
+	else {
+		return getMaxValueHelper(head, head->value);
+	}
 }
